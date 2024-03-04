@@ -75,6 +75,26 @@ body {
   background-color: aqua;
 }
 
-li:first-child {
+li:last-child {
   font-weight: bold;
+}
+
+li:nth-child(2) {
+  font-weight: bold;
+}
+
+/* Styling links*/
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #777;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline orangered;
 }
