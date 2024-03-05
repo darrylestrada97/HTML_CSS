@@ -132,3 +132,8 @@ a:hover {
   font-weight: bold;
   text-decoration: underline orangered;
 }
+
+.post-img {
+  width: auto;
+  height: 300px;
+}
