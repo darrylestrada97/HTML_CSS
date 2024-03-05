@@ -134,6 +134,6 @@ a:hover {
 }
 
 .post-img {
-  width: auto;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
