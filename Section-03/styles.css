@@ -1,3 +1,9 @@
+/* * {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+} */
+
 h1,
 h2,
 h3,
@@ -7,7 +13,15 @@ p {
   font-family: sans-serif;
   color: #444444;
 }
-
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+}
+.related-posts {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
 h1,
 h2,
 h3 {
@@ -61,14 +75,6 @@ li {
 
 .related {
   list-style: none;
-}
-.main-header {
-  background-color: #f7f7f7;
-}
-.related-posts {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
 }
 
 body {
