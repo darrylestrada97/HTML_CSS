@@ -43,6 +43,9 @@ article {
   margin-bottom: 40px;
 }
 
+.author-img {
+  display: inline;
+}
 h1,
 h2,
 h3 {
@@ -98,6 +101,7 @@ li {
   font-size: 16px;
 }
 #author {
+  display: inline-block;
   font-style: italic;
   font-size: 18px;
 }
