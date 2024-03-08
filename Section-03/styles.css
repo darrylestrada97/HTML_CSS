@@ -42,6 +42,7 @@ article {
 .post-header {
   margin-bottom: 40px;
 }
+
 h1,
 h2,
 h3 {
@@ -140,4 +141,10 @@ a:hover {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  background-color: orangered;
+  display: inline-block;
+  margin: 10px;
 }
