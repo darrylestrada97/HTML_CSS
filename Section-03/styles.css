@@ -102,6 +102,7 @@ li {
 }
 #author {
   display: inline-block;
+  margin-left: 2rem;
   font-style: italic;
   font-size: 18px;
 }
