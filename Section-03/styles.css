@@ -169,6 +169,6 @@ button {
   right: 50px;
 }
 
-p::first-line {
+h3 + p::first-line {
   color: red;
 }
