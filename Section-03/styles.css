@@ -177,7 +177,9 @@ h2::after {
   content: "TOP";
   display: inline-block;
   margin-left: 20px;
-  font-size: bold;
+  font-size: 16px;
+  font-weight: bold;
   background-color: #ffe70e;
   color: red;
+  padding: 5px 10px;
 }
