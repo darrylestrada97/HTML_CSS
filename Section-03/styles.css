@@ -168,3 +168,7 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+p::first-line {
+  color: red;
+}
