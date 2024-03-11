@@ -32,7 +32,7 @@ p {
   padding: 50px 0;
 }
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -170,5 +170,14 @@ button {
 }
 
 h3 + p::first-line {
+  color: red;
+}
+
+h2::after {
+  content: "TOP";
+  display: inline-block;
+  margin-left: 20px;
+  font-size: bold;
+  background-color: #ffe70e;
   color: red;
 }
