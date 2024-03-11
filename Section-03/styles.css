@@ -182,7 +182,7 @@ h3 + p::first-line {
 }
 
 h2 {
-  background-color: orange;
+  position: relative;
 }
 
 h2::after {
@@ -192,6 +192,9 @@ h2::after {
   font-size: 16px;
   font-weight: bold;
   background-color: #ffe70e;
-  color: red;
+  color: black;
   padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
 }
