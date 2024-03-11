@@ -153,3 +153,8 @@ nav a:link {
   display: inline-block;
   margin: 10px;
 }
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
