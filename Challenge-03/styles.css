@@ -13,6 +13,7 @@ body {
   border: 4px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 .product-title {
@@ -20,7 +21,7 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   background-color: #f7f7f7;
-  position: relative;
+
   padding: 15px;
 }
 
@@ -35,6 +36,20 @@ body {
   font-weight: bold;
   color: #777;
   margin-bottom: 20px;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  letter-spacing: 4px;
 }
 
 .more-info:link,
@@ -80,27 +95,6 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
-}
-
-/* .sale-icon {
-  background-color: red;
-  padding: 10px 20px;
-  display: inline-block;
-  position: absolute;
-  letter-spacing: 4px;
-  color: white;
-  left: -10px;
-} */
-.product-title::after {
-  content: "SALE";
-  position: absolute;
-  top: -30px;
-  left: -30px;
-  background-color: red;
-  color: white;
-  padding: 10px 20px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
 }
 
 .blocks div {
