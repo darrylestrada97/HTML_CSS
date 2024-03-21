@@ -224,16 +224,13 @@ nav {
 }
 
 article {
-  background-color: green;
-  width: 900px;
+  width: 825px;
   float: left;
 }
 aside {
-  background-color: red;
   width: 300px;
   float: right;
 }
 footer {
   clear: both;
-  background-color: #ffe70e;
 }
