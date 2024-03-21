@@ -109,7 +109,7 @@ li {
 
 #author {
   display: inline-block;
-  margin-left: 2rem;
+
   font-style: italic;
   font-size: 18px;
 }
@@ -197,4 +197,13 @@ h2::after {
   position: absolute;
   top: -15px;
   right: -25px;
+}
+
+/* FLOATS */
+
+.author-img {
+  float: left;
+}
+.author {
+  padding-left: 10px;
 }
