@@ -158,7 +158,7 @@ a:hover {
 }
 
 nav a:link {
-  background-color: orangered;
+  font-family: sans-serif;
   display: inline-block;
   margin: 10px;
 }
