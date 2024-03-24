@@ -36,7 +36,6 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-  margin-top: 10px;
   margin-bottom: 20px;
   float: right;
 }
@@ -68,6 +67,11 @@ body {
 .more-info:hover,
 .more-info:active {
   text-decoration: none;
+}
+
+.product-description {
+  clear: both;
+  margin-bottom: 10px;
 }
 
 .color {
@@ -141,15 +145,15 @@ body {
   clear: both;
 }
 
-.info {
+.product-info {
   float: left;
   margin-left: 40px;
-  width: 250px;
+  width: 243px;
 }
-.details {
-  width: 200px;
+.product-details {
+  width: 243px;
   margin-left: 40px;
-  float: right;
+  float: left;
 }
 
 .price-info {
