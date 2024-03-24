@@ -141,8 +141,10 @@ body {
   height: 100px;
 }
 
-.clearfix {
+.clearfix::after {
   clear: both;
+  content: "";
+  display: block;
 }
 
 .product-info {
