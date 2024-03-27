@@ -337,8 +337,7 @@ aside {
 .main-header {
   grid-column: 1 / -1;
 }
-article {
-}
+
 aside {
   align-self: start;
 }
