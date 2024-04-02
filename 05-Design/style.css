@@ -146,7 +146,7 @@ img {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.7;
-  color: #c1f6e5b6;
+  color: #e6fcf5c5;
 }
 
 .testimonial-author {
@@ -166,6 +166,7 @@ h3 {
 .chair-details {
   list-style: none;
   margin-bottom: 24px;
+  ¡
 }
 
 .chair-details li {
@@ -186,6 +187,7 @@ h3 {
 }
 
 .chair-price {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
