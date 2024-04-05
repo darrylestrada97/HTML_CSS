@@ -58,7 +58,11 @@
       .text {
         font-size: 24px;
         font-weight: 500;
-        color: #087f5b;
+        /* color: #087f5b; */
+      }
+
+      .number {
+        color: #ced4da;
       }
       .text {
       }
@@ -68,10 +72,11 @@
         stroke: #087f5b;
       }
       .hidden-box {
+        display: none;
         grid-column: 2;
       }
       .hidden-box p {
-        line-height: 1.6;
+        line-height: 1.2;
         margin-bottom: 24px;
       }
 
@@ -81,6 +86,19 @@
         display: flex;
         flex-direction: column;
         gap: 12px;
+      }
+
+      .open {
+        border-top: 4px solid #087f5b;
+      }
+
+      .open .hidden-box {
+        display: block;
+      }
+
+      .open .number,
+      .open .text {
+        color: #087f5b;
       }
     </style>
   </head>
@@ -122,7 +140,7 @@
           </ul>
         </div>
       </div>
-      <div class="item">
+      <div class="item open">
         <p class="number">02</p>
         <p class="text">How long do I have to return my chair?</p>
         <svg
