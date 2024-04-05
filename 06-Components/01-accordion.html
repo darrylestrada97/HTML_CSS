@@ -34,6 +34,7 @@
       body {
         font-family: "Inter", sans-serif;
         color: #343a40;
+        line-height: 1;
       }
 
       .accordion {
@@ -42,6 +43,10 @@
       }
 
       .item {
+        box-shadow: #072f5849 0px 0px 32px;
+        padding: 24px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
       }
       .number,
       .text {
@@ -66,6 +71,9 @@
       .hidden-box ul {
         color: #868e96;
         margin-left: 13px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
       }
     </style>
   </head>
