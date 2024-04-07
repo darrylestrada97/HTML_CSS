@@ -50,7 +50,7 @@
         border-radius: 8px;
         padding: 32px;
         display: flex;
-        /* align-items: center; */
+        align-items: center;
         gap: 86px;
         padding-left: 86px;
         position: relative;
@@ -87,6 +87,7 @@
         align-items: center;
         justify-content: center;
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
       }
       .btn--left {
         left: 0;
@@ -102,6 +103,25 @@
         width: 24px;
         height: 24px;
         stroke: #087f5b;
+      }
+      .dots {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 32px);
+        gap: 12px;
+      }
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: #fff;
+        border: 2px solid #087f5b;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .active {
+        background-color: #087f5b;
       }
     </style>
   </head>
@@ -148,6 +168,12 @@
           />
         </svg>
       </button>
+      <div class="dots">
+        <button class="dot active">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
     </div>
   </body>
 </html>
