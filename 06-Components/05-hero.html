@@ -32,12 +32,7 @@
 
       header {
         height: 100vh;
-        background-image: linear-gradient(
-            to right bottom,
-            rgba(126, 213, 111, 0.8),
-            rgba(40, 180, 133, 0.8)
-          ),
-          url(../06-Components/hero.jpg);
+        position: relative;
       }
       nav {
         font-size: 20px;
@@ -45,6 +40,18 @@
         display: flex;
         justify-content: space-between;
         background-color: green;
+      }
+      .header-container {
+        width: 1200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: violet;
+        transform: translate(-50%, -50%);
+      }
+
+      .header-container-inner {
+        width: 50%;
       }
 
       h1 {
@@ -87,13 +94,16 @@
         <div>LOGO</div>
         <div>NAVIGATION</div>
       </nav>
-      <div class="container">
+      <div class="header-container">
+        <div class="header-container-inner">
         <h1>A Healthy meal delivered to your door, every single day</h1>
         <p>
           The samrt 365-days-per-day food suscription that will make you eat
           healthy again. Tailored personal tastes and nutrional needs
         </p>
         <a href="#" class="btn">click here</a>
+    </div>
+      </div>
       </div>
     </header>
     <section>
