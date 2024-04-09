@@ -42,6 +42,20 @@
       background-color: #7048e8;
       color: white;
       grid-column: 2/-1;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 40px;
+    }
+
+    button {
+      display: inline-block;
+      background-color: #5f3dc4;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      color: white;
+      padding: 8px 12px;
     }
 
     aside {
@@ -53,7 +67,13 @@
   </style>
   <body>
     <nav>Nav</nav>
-    <menu>Menu</menu>
+    <menu>
+      <button>New</button>
+      <button>Replay</button>
+      <button>Forward</button>
+      <button>Mark unread</button>
+      <button>Delete</button>
+    </menu>
     <section>Inbox</section>
     <main>Email view</main>
     <aside>Additional info</aside>
