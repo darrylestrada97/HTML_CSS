@@ -1,5 +1,33 @@
+/*
+
+---- 01 Typography ----
+
+
+Font Sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 48 / 60 / 72
+
+SPACING: 
+2 / 4 / 8 / 16 / 32 / 64 / 128 / 256 / 512
+
+---- 02 Colors ----
+
+Primary: #e67e22
+Tints: #f39c12 / #f8c471 / #f5b041
+Shades: 
+Accents: 
+Greys: #f0f0f0 / #e6e6e6 / #ccc / #999 / #666 / #333 / #222
+
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
 }
