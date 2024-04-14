@@ -6,6 +6,8 @@
 Font Sizes (px):
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 48 / 60 / 72
 
+Font Weights:
+400 / 600 / 800
 SPACING: 
 2 / 4 / 8 / 16 / 32 / 64 / 128 / 256 / 512
 
@@ -32,9 +34,19 @@ Greys: #f0f0f0 / #e6e6e6 / #ccc / #999 / #666 / #333 / #222
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.test {
+  background-color: red;
+  padding: 100px;
+  /* width: 1000px; */
+  max-width: 50rem;
 }
