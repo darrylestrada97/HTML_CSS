@@ -87,7 +87,7 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: background-color 1s;
+  transition: background-color 0.3s;
 }
 
 .btn--full:link,
@@ -114,4 +114,8 @@ body {
   /* border: #fff 3px solid; */
   /* Trick to add border inside*/
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
