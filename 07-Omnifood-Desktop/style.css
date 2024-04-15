@@ -14,7 +14,7 @@ SPACING:
 ---- 02 Colors ----
 
 Primary: #e67e22
-Tints: #f39c12 / #f8c471 / #f5b041
+Tints: #f39c12 / #f8c471 / #f5b041 / #fdf2e9
 Shades: 
 Accents: 
 Greys: #f0f0f0 / #e6e6e6 / #ccc / #999 / #666 / #333 / #222
@@ -51,11 +51,16 @@ body {
   max-width: 50rem;
 }
 
+.section-hero {
+  background-color: #fdf2e9;
+}
 .hero {
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6.4rem;
 }
 .hero-img {
   width: 100%;
@@ -66,8 +71,11 @@ body {
   line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
 }
 .hero-description {
   font-size: 2rem;
   font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
