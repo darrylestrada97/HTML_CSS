@@ -75,8 +75,8 @@ body {
   margin-bottom: 3.2rem;
 }
 .hero-description {
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1.8rem;
+
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
@@ -127,11 +127,14 @@ body {
 
 .delivered-imgs {
   display: flex;
-  gap: 1.6rem;
 }
 .delivered-imgs img {
   height: 6.4rem;
   width: 6.4rem;
-
   border-radius: 50%;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
