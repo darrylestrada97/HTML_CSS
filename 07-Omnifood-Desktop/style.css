@@ -133,14 +133,19 @@ body {
   color: #e67e22;
 }
 
-.nav-cta:link,
-.nav-cta:visited {
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   color: #fff;
   display: inline-block;
   border-radius: 9px;
   background-color: #e67e22;
 }
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
 /******************/
 /* SECTION HERO */
 /******************/
