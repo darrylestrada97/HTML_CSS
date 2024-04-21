@@ -210,3 +210,32 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+/******************/
+/* HOW IT WORKS */
+/******************/
+
+.section-how {
+  background-color: orangered;
+  padding: 9.6px 0;
+}
+
+.section-how div {
+  padding: 100px;
+  font-size: 50px;
+}
+
+.section-how div:nth-child(1) {
+  background-color: pink;
+}
+.section-how div:nth-child(2) {
+  background-color: #cf711f;
+}
+
+.section-how div:nth-child(3) {
+  background-color: blue;
+}
+
+.section-how div:nth-child(3) {
+  background-color: yellow;
+}
