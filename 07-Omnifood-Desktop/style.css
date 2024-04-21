@@ -48,6 +48,28 @@ body {
 /* GENERAL STYLES */
 /******************/
 
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -216,39 +238,6 @@ body {
 /******************/
 
 .section-how {
-  background-color: rgb(12, 4, 24);
+  background-color: rgb(229, 227, 231);
   padding: 9.6rem 0;
-}
-
-.grid {
-  display: grid;
-  gap: 9.6rem;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.section-how div {
-  padding: 100px;
-  font-size: 50px;
-}
-
-.section-how div:nth-child(1) {
-  background-color: pink;
-}
-.section-how div:nth-child(2) {
-  background-color: #cf711f;
-}
-
-.section-how div:nth-child(3) {
-  background-color: blue;
-}
-
-.section-how div:nth-child(4) {
-  background-color: yellow;
 }
