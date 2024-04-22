@@ -120,14 +120,14 @@
 /******************/
 
 .section-how {
-  background-color: rgb(229, 227, 231);
   padding: 9.6rem 0;
+  z-index: 0;
 }
 
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
-  color: #aaa;
+  color: #ddd;
   margin-bottom: 1.2rem;
 }
 .step-description {
@@ -139,8 +139,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #562905;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 .step-img {
   width: 35%;
-  margin-bottom: 4.8rem;
 }
