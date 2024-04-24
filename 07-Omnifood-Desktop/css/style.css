@@ -118,12 +118,26 @@
 /************************/
 /* FEATURED IN SECTION */
 /************************/
+
+.section-featured {
+  padding: 4.8rem 0;
+}
 .heading-featured-in {
   font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
   font-weight: 500;
-  color: #e67e22;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos img {
+  height: 3.2rem;
 }
 /******************/
 /* HOW IT WORKS */
