@@ -7,7 +7,7 @@ testimonials, sign up, and contact sections. The website is fully responsive and
 ## Landing Page
 ![Omnifood Landing Page](LANDING.png)
 
-### Github page link
+### GitHub page link
 [Omnifood](https://darrylestrada97.github.io/HTML_CSS/)
 ## Technologies Used
 - HTML
